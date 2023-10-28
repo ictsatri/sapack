@@ -5,14 +5,14 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Bridging\\SatuSehat\\": "src/SatuSehat/",
-            "Bridging\\BpjsVclaim\\": "src/BpjsVclaim/",
-            "Bridging\\BpjsAntrol\\": "src/BpjsAntrol/",
-            "Bridging\\BpjsIcare\\": "src/BpjsIcare/",
-            "Bridging\\Saapi\\": "src/Sappi/",
-            "Bridging\\Orthanc\\": "src/Orthanc/",
-            "Bridging\\Kemenkes\\": "src/Kemenkes/",
-            "Bridging\\Inhealth\\": "src/Inhealth/"
+            "SatuSehat\\Bridging": "src/SatuSehat/",
+            "BpjsVclaim\\Bridging": "src/BpjsVclaim/",
+            "BpjsAntrol\\Bridging": "src/BpjsAntrol/",
+            "BpjsIcare\\Bridging": "src/BpjsIcare/",
+            "Saapi\\Bridging": "src/Sappi/",
+            "Orthanc\\Bridging": "src/Orthanc/",
+            "Kemenkes\\Bridging": "src/Kemenkes/",
+            "Inhealth\\Bridging": "src/Inhealth/"
         }
     },
     "authors": [
