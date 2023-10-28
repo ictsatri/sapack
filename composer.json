@@ -3,30 +3,29 @@
     "description": "Library Karya Anak Bangsa merdeka 1945",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "SatuSehat\\Bridging\\": "src/SatuSehat/",
-            "BpjsVclaim\\Bridging\\": "src/BpjsVclaim/",
-            "BpjsAntrol\\Bridging\\": "src/BpjsAntrol/",
-            "BpjsIcare\\Bridging\\": "src/BpjsIcare/",
-            "Saapi\\Bridging\\": "src/Sappi/",
-            "Orthanc\\Bridging\\": "src/Orthanc/",
-            "Kemenkes\\Bridging\\": "src/Kemenkes/",
-            "Inhealth\\Bridging\\": "src/Inhealth/"
-        }
-    },
     "authors": [
         {
             "name": "Tri Waskito",
             "email": "triwaskito.ictsa@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "require": {
         "php": ">=7.0",
         "nullpunkt/lz-string-php": "^1.3"
     },
+    "autoload": {
+        "psr-4": {
+            "Satusehat\\Bridging\\": "src/Satusehat/",
+            "Bpjs\\Bridging\\": "src/Bpjs/",
+            "Saapi\\Bridging\\": "src/Sappi/",
+            "Orthanc\\Bridging\\": "src/Orthanc/",
+            "Kemenkes\\Bridging\\": "src/Kemenkes/",
+            "Inhealth\\Bridging\\": "src/Inhealth/"
+        }
+    },
     "config": {
+        "sort-packages": true,
         "platform-check": false
     }
 }

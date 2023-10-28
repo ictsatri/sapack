@@ -9,14 +9,59 @@ class ComposerStaticInit3802387c39358e8d741d6e8f73764459
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
-            'Sariasih\\Package\\' => 17,
+            'Satusehat\\Bridging\\' => 19,
+            'Saapi\\Bridging\\' => 15,
+        ),
+        'O' => 
+        array (
+            'Orthanc\\Bridging\\' => 17,
+        ),
+        'L' => 
+        array (
+            'LZCompressor\\' => 13,
+        ),
+        'K' => 
+        array (
+            'Kemenkes\\Bridging\\' => 18,
+        ),
+        'I' => 
+        array (
+            'Inhealth\\Bridging\\' => 18,
+        ),
+        'B' => 
+        array (
+            'Bpjs\\Bridging\\' => 14,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Sariasih\\Package\\' => 
+        'Satusehat\\Bridging\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/src/Satusehat',
+        ),
+        'Saapi\\Bridging\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Sappi',
+        ),
+        'Orthanc\\Bridging\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Orthanc',
+        ),
+        'LZCompressor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nullpunkt/lz-string-php/src/LZCompressor',
+        ),
+        'Kemenkes\\Bridging\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Kemenkes',
+        ),
+        'Inhealth\\Bridging\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Inhealth',
+        ),
+        'Bpjs\\Bridging\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Bpjs',
         ),
     );
 

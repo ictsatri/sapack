@@ -6,5 +6,11 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Sariasih\\Package\\' => array($baseDir . '/src'),
+    'Satusehat\\Bridging\\' => array($baseDir . '/src/Satusehat'),
+    'Saapi\\Bridging\\' => array($baseDir . '/src/Sappi'),
+    'Orthanc\\Bridging\\' => array($baseDir . '/src/Orthanc'),
+    'LZCompressor\\' => array($vendorDir . '/nullpunkt/lz-string-php/src/LZCompressor'),
+    'Kemenkes\\Bridging\\' => array($baseDir . '/src/Kemenkes'),
+    'Inhealth\\Bridging\\' => array($baseDir . '/src/Inhealth'),
+    'Bpjs\\Bridging\\' => array($baseDir . '/src/Bpjs'),
 );

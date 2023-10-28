@@ -1,6 +1,6 @@
 <?php
 	
-	namespace Bridging\SatuSehat;
+	namespace SatuSehat\Bridging;
 	
 	class SatuSehatCurl{
 		var $config;
