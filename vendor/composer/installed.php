@@ -3,7 +3,7 @@
         'name' => 'rssa/fulllib',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '9f71b90b427668bfefef6936ae53a62083993c26',
+        'reference' => '38da6a60af7ab3f066807a5a8abac57b0ade8ef9',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'rssa/fulllib' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '9f71b90b427668bfefef6936ae53a62083993c26',
+            'reference' => '38da6a60af7ab3f066807a5a8abac57b0ade8ef9',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
