@@ -1,6 +1,6 @@
 {
-    "name": "sariasih/package",
-    "description": "Library Sari Asih",
+    "name": "sariasih/fulllib",
+    "description": "Library Karya Anak Bangsa merdeka 1945",
     "type": "library",
     "license": "MIT",
     "autoload": {
