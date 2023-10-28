@@ -1,0 +1,32 @@
+{
+    "name": "sariasih/package",
+    "description": "Library Sari Asih",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bridging\\SatuSehat\\": "src/SatuSehat/",
+            "Bridging\\BpjsVclaim\\": "src/BpjsVclaim/",
+            "Bridging\\BpjsAntrol\\": "src/BpjsAntrol/",
+            "Bridging\\BpjsIcare\\": "src/BpjsIcare/",
+            "Bridging\\Saapi\\": "src/Sappi/",
+            "Bridging\\Orthanc\\": "src/Orthanc/",
+            "Bridging\\Kemenkes\\": "src/Kemenkes/",
+            "Bridging\\Inhealth\\": "src/Inhealth/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tri Waskito",
+            "email": "triwaskito.ictsa@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "nullpunkt/lz-string-php": "^1.3"
+    },
+    "config": {
+        "platform-check": false
+    }
+}
