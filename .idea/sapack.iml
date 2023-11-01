@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/Bpjs" isTestSource="false" packagePrefix="Bpjs\Bridging\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Inhealth" isTestSource="false" packagePrefix="Inhealth\Bridging\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Kemenkes" isTestSource="false" packagePrefix="Kemenkes\Bridging\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Orthanc" isTestSource="false" packagePrefix="Orthanc\Bridging\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Sappi" isTestSource="false" packagePrefix="Saapi\Bridging\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Satusehat" isTestSource="false" packagePrefix="Satusehat\Bridging\" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nullpunkt/lz-string-php" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
