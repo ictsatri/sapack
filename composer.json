@@ -25,6 +25,9 @@
     },
     "config": {
         "sort-packages": true,
-        "platform-check": false
+        "platform-check": false,
+        "platform": {
+            "php": "7.0"
+        }
     }
 }
