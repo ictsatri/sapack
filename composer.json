@@ -4,9 +4,9 @@
     "type": "library",
     "require": {
         "php": ">= 7.0",
-        "guzzlehttp/guzzle": "6.5.8",
-        "phpseclib/phpseclib": "3",
-        "ramsey/uuid": "3.9"
+        "guzzlehttp/guzzle": "^6.5.8",
+        "phpseclib/phpseclib": "^3.0",
+        "ramsey/uuid": "^3.9"
     },
     "license": "MIT",
     "autoload": {
