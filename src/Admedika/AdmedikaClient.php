@@ -1,6 +1,6 @@
 <?php
 	
-	namespace Sapack\Integration\Admedika;
+	namespace Sapack\Integration;
 	
 	use GuzzleHttp\Client;
 	use GuzzleHttp\Exception\ClientException;
