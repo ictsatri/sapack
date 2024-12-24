@@ -1,0 +1,24 @@
+{
+    "name": "sapack/integration",
+    "description": "sapack",
+    "type": "library",
+    "require": {
+        "php": ">= 7.0",
+        "guzzlehttp/guzzle": "6.5.8",
+        "phpseclib/phpseclib": "3",
+        "ramsey/uuid": "3.9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sapack\\Integration\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tri Waskito",
+            "email": "triwaskito.ictsa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
