@@ -29,11 +29,11 @@
 			$this->db2    = $CI->db2;
 			$this->dbhis  = $CI->dbhis;
 			
-			$this->admedika_env          = '';
-			$this->admedika_url          = '';
-			$this->admedika_customerID   = '';
-			$this->admedika_securityWord = '';
-			$this->admedika_terminalID   = '';
+			$this->admedika_env          = $this->config->item('AdmedikaENV');
+			$this->admedika_url          = $this->config->item('AdmedikaBaseURL');
+			$this->admedika_customerID   = $this->config->item('AdmedikaCustomerID');
+			$this->admedika_securityWord = $this->config->item('AdmedikaSecurityWord');
+			$this->admedika_terminalID   = $this->config->item('AdmedikaTerminalID');
 			
 			date_default_timezone_set("Asia/Bangkok");
 			
